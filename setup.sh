@@ -4,5 +4,5 @@ set -e
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 
-curl -fsSL -o /etc/init/docker.conf
-service docker restart
+sudo curl -fsSL https://raw.githubusercontent.com/lexana/zac-aws-bootstrap/master/docker.config -o /etc/init/docker.conf
+sudo service docker restart
