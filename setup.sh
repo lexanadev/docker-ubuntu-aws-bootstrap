@@ -6,3 +6,6 @@ sh get-docker.sh
 
 sudo curl -fsSL https://raw.githubusercontent.com/lexana/zac-aws-bootstrap/master/docker.config -o /etc/init/docker.conf
 sudo service docker restart
+
+sudo mv sshd_config /etc/ssh/sshd_config
+sudo service ssh restart
