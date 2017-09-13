@@ -1,4 +1,4 @@
-# Zac AWS Bootstrap
+# Zac AWS Bootstrap - or any machine with Ubuntu...
 
 ## Ubuntu 14.x Trusty
 Once the Machine (EC2 or whatever) with Ubuntu Trusty is up, just type:
